@@ -1,0 +1,36 @@
+h3{
+  margin: 10px 0px 20px 0px;
+  text-transform: uppercase;
+}
+button{
+  margin: 0px 10px;
+}
+.waves {
+  overflow: hidden;
+  position: relative;
+  transition: 0.3s;
+}
+
+.waves:hover {
+  cursor: pointer;
+}
+
+.wave {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+  transform: scale(0.2);
+  opacity: 0;
+  pointer-events: none;
+  animation: wave 0.75s ease-out;
+}
+
+@keyframes wave {
+  from {
+    opacity: 1;
+  }
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
