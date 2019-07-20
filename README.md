@@ -1,6 +1,6 @@
 # Cara Menggunaan Effect Waves
 ### Langkah awal
-* Copy File css class .waves .wave dan @keyframe wave atau dari line 8 hingga kebawah pada file customcss.css
+* Copy File css class .waves .wave .wave:hover dan @keyframe wave atau dari line 8 hingga kebawah pada file customcss.css
 * Pastekan ke file css anda
 * Copy File seluruh source code file js di customjs.js
 * Pastekan ke file js kalian
