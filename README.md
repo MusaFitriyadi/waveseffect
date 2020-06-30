@@ -17,3 +17,6 @@
 ```html
 <button class="btn btn-primary waves">Ini Button</button>
 ```
+<hr>
+
+<p align="center"> Copyright &copy; <b>Musa</b> </p>
